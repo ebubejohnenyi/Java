@@ -4,67 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="debb0365-5e4e-4adc-b779-7eabb8b41d72" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ArraySnacks/OccuranceOfElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraySnacks/ReturnArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraySnacks/differentArrayConcate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PlayGround/PracticeNumberReversal.java" afterDir="false" />
+    <list default="true" id="debb0365-5e4e-4adc-b779-7eabb8b41d72" name="Changes" comment="Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArraySnacks/ArrayElementOccur.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArraySnacks/ConcatinateArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraySnacks/ConcatinateArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArraySnacks/EvenNumberArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraySnacks/EvenNumberArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArraySnacks/LargestArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraySnacks/LargestArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArraySnacks/OddNumbersArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraySnacks/OddNumbersArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArraySnacks/ReverseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraySnacks/ReverseArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ArraySnacks/StringPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraySnacks/StringPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArraySnacks/SumOfArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraySnacks/SumOfArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChapterFour/CreditLimitCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChapterFour/CreditLimitCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChapterFour/DecryptEncryptedInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChapterFour/DecryptEncryptedInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChapterFour/EncryptingUserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChapterFour/EncryptingUserInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChapterFour/FindLargestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChapterFour/FindLargestNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChapterFour/GasMileage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChapterFour/GasMileage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChapterFour/RightAngleTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChapterFour/RightAngleTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChapterFour/SalesCommissionCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChapterFour/SalesCommissionCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChapterFour/TabularOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChapterFour/TabularOutput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChapterFour/TaxCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChapterFour/TaxCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChapterFour/TwoLargestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChapterFour/TwoLargestNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChapterFour/ValidatingInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChapterFour/ValidatingInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChapterSeven/ArrayOfAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChapterSeven/ArrayOfAverage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChapterSeven/ArraySample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChapterSeven/ArraySample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChapterSeven/EvenNumbersArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChapterSeven/EvenNumbersArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChapterSeven/MaxAndMinForArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChapterSeven/MaxAndMinForArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChapterSeven/PopulateTwoDimensionalArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChapterSeven/PopulateTwoDimensionalArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChapterSeven/StoreOnlyEvenIntegerArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChapterSeven/StoreOnlyEvenIntegerArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChapterSix/Arithemetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChapterSix/Arithemetic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChapterThree/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChapterThree/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChapterThree/Clock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChapterThree/Clock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChapterThree/PetrolPurchase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChapterThree/PetrolPurchase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaExercise/ChristmasSong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaExercise/ChristmasSong.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaExercise/ClassWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaExercise/ClassWork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaExercise/Loop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaExercise/Loop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaExercise/PrimeNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaExercise/PrimeNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PersonalExercise/CollectArraysEqualInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonalExercise/CollectArraysEqualInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PersonalExercise/EvenAndOddArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonalExercise/EvenAndOddArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PersonalExercise/MethodOverloading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonalExercise/MethodOverloading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PersonalExercise/ReverseArrayInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonalExercise/ReverseArrayInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlayGround/PlayGround.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlayGround/PlayGround.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlayGround/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlayGround/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlayGround/arrayTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlayGround/arrayTesting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ChapterFour/CreditCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ChapterFour/CreditCalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ChapterFour/FindLargestNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ChapterFour/FindLargestNumberTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ChapterFour/GasMileageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ChapterFour/GasMileageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ChapterFour/SalesCommissionCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ChapterFour/SalesCommissionCalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ChapterFour/TaxCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ChapterFour/TaxCalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ChapterSeven/LargestElementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ChapterSeven/LargestElementTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ChapterThree/CarApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ChapterThree/CarApplicationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ChapterThree/ClockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ChapterThree/ClockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ChapterThree/PetrolPurchaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ChapterThree/PetrolPurchaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/JavaExercise/ClassWorkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/JavaExercise/ClassWorkTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/JavaExercise/LoopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/JavaExercise/LoopTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/JavaExercise/PrimeNumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/JavaExercise/PrimeNumbersTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/PersonalExercise/CalculationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/PersonalExercise/CalculationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/PersonalExercise/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/PersonalExercise/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,20 +58,7 @@
       <recent name="PersonalExercise" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConcatinateArrays">
-    <configuration name="ArrayElementOccur" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraySnacks.ArrayElementOccur" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ArraySnacks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StringPalindrome">
     <configuration name="ConcatinateArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraySnacks.ConcatinateArrays" />
       <module name="Java" />
@@ -169,6 +98,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraySnacks.StringPalindrome" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArraySnacks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="differentArrayConcate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraySnacks.differentArrayConcate" />
       <module name="Java" />
@@ -184,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringPalindrome" />
         <item itemvalue="Application.ConcatinateArrays" />
         <item itemvalue="Application.ReturnArray" />
         <item itemvalue="Application.differentArrayConcate" />
         <item itemvalue="Application.PopulateTwoDimensionalArray" />
-        <item itemvalue="Application.ArrayElementOccur" />
       </list>
     </recent_temporary>
   </component>
@@ -208,12 +150,25 @@
       <workItem from="1683722469441" duration="10681000" />
       <workItem from="1683751540927" duration="21547000" />
       <workItem from="1683816201566" duration="87380000" />
-      <workItem from="1684147198074" duration="41782000" />
+      <workItem from="1684147198074" duration="43756000" />
+      <workItem from="1684321730191" duration="3841000" />
     </task>
+    <task id="LOCAL-00001" summary="Update">
+      <created>1684318220937</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684318220937</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
