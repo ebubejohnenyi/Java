@@ -1,2 +1,5 @@
-package JavaExercise;public class ChristmasSong {
+package JavaExercise;
+
+public class ChristmasSong {
+
 }

@@ -1,6 +1,6 @@
 package PersonalExercise;
 
-public class Arrays {
+public class MethodOverloading {
     public static void main(String[] args) {
        String [] names = {"John", "Ebube", "Precious", "Enyi"};
 

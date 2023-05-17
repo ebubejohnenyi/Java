@@ -1,14 +1,24 @@
 package ChapterSix;
 
-public class MethodOverLoading {
-    private int num;
-    public int add( int a, int b){
-        return 0;
-    }
-    public int add(int a, int b, int c){
-        return 0;
-    }
-    public static void main(String[] args){
-        Arithemetic arith = new A
+import java.security.SecureRandom;
+import java.util.Scanner;
+
+public class Arithemetic {
+   enum location{
+       NORTH,
+       SOUTH,
+       WEST,
+       EAST;
+   }
+      public static void main(String[] args){
+       Scanner input =  new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int userInput = input.nextInt();
+          SecureRandom random = new SecureRandom();
+          int computerNumber = random.nextInt(10);
+          if(userInput > computerNumber){
+              System.out.println("WON");
+          }
+          else System.out.println("LOSS");
     }
 }

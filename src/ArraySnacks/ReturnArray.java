@@ -1,18 +1,19 @@
 package ArraySnacks;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
-public class SumOfArray {
+public class ReturnArray {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        int [] arrayHolder = new int[5];
-        int sum = 0;
+        int [] arrayHolder = new int[4];
+        int holder;
         for (int index = 0; index < arrayHolder.length; index++) {
             System.out.print("Enter a number: ");
             int userNumber = input.nextInt();
-            sum += arrayHolder[index] = userNumber;
+            arrayHolder[index] = userNumber;
         }
-        System.out.println("The sum of the numbers are: " + sum);
+        System.out.println("The number has been return in an array: "+Arrays.toString(arrayHolder));
     }
 }

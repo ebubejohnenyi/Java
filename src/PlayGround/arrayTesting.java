@@ -1,7 +1,7 @@
 package PlayGround;
 
-public class NumbersPalindrome {
+public class arrayTesting {
     public static void main(String[] args) {
-      x
+
     }
 }
