@@ -9,7 +9,7 @@ public class StringPalindrome {
         Scanner input = new Scanner(System.in);
         String reversed = "";
         System.out.print("Enter a name: ");
-        String userInput = input.nextLine();
+        String userInput = input.nextLine().toLowerCase();
         boolean checker = false;
         for (int index = userInput.length() - 1; index >= 0; index--) {
             reversed += userInput.charAt(index);

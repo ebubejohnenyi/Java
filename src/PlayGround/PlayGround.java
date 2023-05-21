@@ -55,8 +55,6 @@ public class PlayGround {
         }
         System.out.print(Arrays.deepToString(arr));
 
-
-
 //        int [] firstRow = arr[0];
 //        for (int index = 0; index < firstRow.length; index++) {
 //            myMethod(firstRow, index);

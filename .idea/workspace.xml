@@ -5,7 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="debb0365-5e4e-4adc-b779-7eabb8b41d72" name="Changes" comment="Update">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GeoPoliticalZone/Nigeria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GeoPoliticalZone/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/BillingInformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/CardType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/CreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/Customers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/Estore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/Items.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/ProductCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/Sellers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PersonalExercise/CalculateAreaOfACircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PlayGround/Enum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Problem/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Problem/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Problem/Problems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Problem/TypeOfProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ArraySnacksTest/ConcatinateArraysTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ArraySnacksTest/EvenNumberArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ArraySnacksTest/LargestArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ArraySnacksTest/OccuranceOfElementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ArraySnacksTest/OddNumbersArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ArraySnacksTest/ReturnArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ArraySnacksTest/ReverseArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/GeoPoliticalZone/NigeriaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Problem/PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArraySnacks/ConcatinateArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraySnacks/ConcatinateArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArraySnacks/EvenNumberArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraySnacks/EvenNumberArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArraySnacks/OccuranceOfElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraySnacks/OccuranceOfElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArraySnacks/OddNumbersArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraySnacks/OddNumbersArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArraySnacks/ReturnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraySnacks/ReturnArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArraySnacks/ReverseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraySnacks/ReverseArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArraySnacks/StringPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraySnacks/StringPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PlayGround/PlayGround.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlayGround/PlayGround.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +51,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -38,6 +76,8 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
     &quot;last_directory_selection&quot;: &quot;/home/jon_snow/IdeaProjects/Java/src&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -50,86 +90,109 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="ChapterSeven.turtle" />
       <recent name="ChapterThree" />
       <recent name="PersonalExercise" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="PersonalExercise" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Problem" />
+      <recent name="GeoPoliticalZone" />
+      <recent name="ArraySnacksTest" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.StringPalindrome">
-    <configuration name="ConcatinateArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraySnacks.ConcatinateArrays" />
+  <component name="RunManager" selected="JUnit.PersonTest.testThatWeSolveAProblem">
+    <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArraySnacks.*" />
+          <option name="PATTERN" value="Problem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Problem" />
+      <option name="MAIN_CLASS_NAME" value="Problem.PersonTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PopulateTwoDimensionalArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ChapterSeven.PopulateTwoDimensionalArray" />
+    <configuration name="PersonTest.getList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ChapterSeven.*" />
+          <option name="PATTERN" value="Problem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Problem" />
+      <option name="MAIN_CLASS_NAME" value="Problem.PersonTest" />
+      <option name="METHOD_NAME" value="getList" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReturnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraySnacks.ReturnArray" />
+    <configuration name="PersonTest.testThatWeSolveAProblem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArraySnacks.*" />
+          <option name="PATTERN" value="Problem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Problem" />
+      <option name="MAIN_CLASS_NAME" value="Problem.PersonTest" />
+      <option name="METHOD_NAME" value="testThatWeSolveAProblem" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraySnacks.StringPalindrome" />
+    <configuration name="PersonTest.testWeCanCreateANewProblem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArraySnacks.*" />
+          <option name="PATTERN" value="Problem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Problem" />
+      <option name="MAIN_CLASS_NAME" value="Problem.PersonTest" />
+      <option name="METHOD_NAME" value="testWeCanCreateANewProblem" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="differentArrayConcate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraySnacks.differentArrayConcate" />
+    <configuration name="TurtleTest.testWeHaveATurtle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArraySnacks.*" />
+          <option name="PATTERN" value="turtle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="turtle" />
+      <option name="MAIN_CLASS_NAME" value="turtle.TurtleTest" />
+      <option name="METHOD_NAME" value="testWeHaveATurtle" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringPalindrome" />
-        <item itemvalue="Application.ConcatinateArrays" />
-        <item itemvalue="Application.ReturnArray" />
-        <item itemvalue="Application.differentArrayConcate" />
-        <item itemvalue="Application.PopulateTwoDimensionalArray" />
+        <item itemvalue="JUnit.PersonTest.testThatWeSolveAProblem" />
+        <item itemvalue="JUnit.PersonTest.testWeCanCreateANewProblem" />
+        <item itemvalue="JUnit.PersonTest" />
+        <item itemvalue="JUnit.TurtleTest.testWeHaveATurtle" />
+        <item itemvalue="JUnit.PersonTest.getList" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +213,9 @@
       <workItem from="1683751540927" duration="21547000" />
       <workItem from="1683816201566" duration="87380000" />
       <workItem from="1684147198074" duration="43756000" />
-      <workItem from="1684321730191" duration="4191000" />
+      <workItem from="1684321730191" duration="4928000" />
+      <workItem from="1684328967679" duration="26045000" />
+      <workItem from="1684496994533" duration="27415000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1684318220937</created>
@@ -166,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684326689605</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update">
+      <created>1684326845074</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684326845074</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
