@@ -5,19 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="debb0365-5e4e-4adc-b779-7eabb8b41d72" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/src/MBTI/SecondMBTI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Things/Amphibians.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Things/Animals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Things/Aves.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Things/LivingThings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Things/Mammals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Things/NonLivingThings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Things/Pisces.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Things/Plants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Things/Reptiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Things/Things.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Things/Vertebrate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/MBTITEST/PersonalityTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MBTI/Personality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MBTI/Personality.java" afterDir="false" />
     </list>
@@ -187,7 +174,7 @@
       <workItem from="1684147198074" duration="43756000" />
       <workItem from="1684321730191" duration="4928000" />
       <workItem from="1684328967679" duration="26045000" />
-      <workItem from="1684496994533" duration="62814000" />
+      <workItem from="1684496994533" duration="65205000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1684318220937</created>
@@ -231,7 +218,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684744468711</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update">
+      <created>1684834862415</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684834862415</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update">
+      <created>1684834971322</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684834971322</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
