@@ -1,8 +1,5 @@
 package MBTI;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 import java.util.Scanner;
 public class Personality {
     public static void main(String[] args) {
@@ -10,12 +7,16 @@ public class Personality {
         personalityMBTI();
     }
     static Scanner scan = new Scanner(System.in);
+
     public static void userName(){
         System.out.println("Enter your name: ");
         String userName = scan.nextLine();
     }
     public static void personalityMBTI() {
+        String userAnswer = "";
+        String enterCorrectAnswer = "";
         String[] questionHolder = new String[40];
+
         questionHolder[0] = "A. expend energy, enjoy groups";
         questionHolder[1] = "B. converse energy, enjoy one-on-one";
         questionHolder[2] = "A. Interpret literally,";
@@ -57,20 +58,27 @@ public class Personality {
         questionHolder[38] = "A. control govern";
         questionHolder[39] = "B. latitude, freedom ";
 
-        String userAnswer = "";
         for (int index = 0; index < questionHolder.length - 1; index += 2) {
             System.out.println(questionHolder[index] + "    " + questionHolder[index + 1]);
             userAnswer = scan.nextLine().toLowerCase();
             if (!userAnswer.equals("a") && !userAnswer.equals("b")) {
                 System.out.println("Expected A or B as Response \nI know this is an error, Please try again: ");
                 System.out.println(questionHolder[index] + "     " + questionHolder[index + 1]);
-                String enterCorrectAnswer = scan.nextLine().toLowerCase();
-                if (!enterCorrectAnswer.equals("a") && !enterCorrectAnswer.equals("b")){
-                    for (int secondIndex = 0; secondIndex < enterCorrectAnswer.length();) {
-                        secondIndex++;
-                    }
-                }
+                enterCorrectAnswer = scan.nextLine().toLowerCase();
+                System.out.println(" ");
+                secondValidatingUserInput(questionHolder, enterCorrectAnswer, index);
             }
         }
+
     }
+    private static void secondValidatingUserInput(String[] questionHolder, String enterCorrectAnswer, int index) {
+        if (!enterCorrectAnswer.equals("a") && !enterCorrectAnswer.equals("b")){
+           while (!enterCorrectAnswer.equals("a") && !enterCorrectAnswer.equals("b")){
+               System.out.println("Expected A or B as Response \nI know this is an error, Please try again: ");
+               System.out.println(questionHolder[index] + "      " + questionHolder[index + 1]);
+                enterCorrectAnswer = scan.nextLine().toLowerCase();
+           }
+        }
+    }
+
 }
