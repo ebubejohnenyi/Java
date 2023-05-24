@@ -1,21 +1,19 @@
 package MBTI;
 
-import java.util.Scanner;
+import javax.crypto.spec.PSource;
+import java.util.*;
+
 public class Personality {
     public static void main(String[] args) {
-        userName();
         personalityMBTI();
     }
     static Scanner scan = new Scanner(System.in);
-
-    public static void userName(){
-        System.out.println("Enter your name: ");
-        String userName = scan.nextLine();
-    }
     public static void personalityMBTI() {
         String userAnswer = "";
-        String enterCorrectAnswer = "";
         String[] questionHolder = new String[40];
+
+        System.out.println("Enter your name: ");
+        String userName = scan.nextLine();
 
         questionHolder[0] = "A. expend energy, enjoy groups";
         questionHolder[1] = "B. converse energy, enjoy one-on-one";
@@ -57,19 +55,46 @@ public class Personality {
         questionHolder[37] = "B. sensitive, people- oriented, compassionate";
         questionHolder[38] = "A. control govern";
         questionHolder[39] = "B. latitude, freedom ";
-
-        for (int index = 0; index < questionHolder.length - 1; index += 2) {
+        
+        List <String> firstAnswerHolder = new ArrayList<>();
+        int index = 0;
+        for (; index < questionHolder.length; index += 2){
             System.out.println(questionHolder[index] + "    " + questionHolder[index + 1]);
             userAnswer = scan.nextLine().toLowerCase();
-            if (!userAnswer.equals("a") && !userAnswer.equals("b")) {
-                System.out.println("Expected A or B as Response \nI know this is an error, Please try again: ");
-                System.out.println(questionHolder[index] + "     " + questionHolder[index + 1]);
-                enterCorrectAnswer = scan.nextLine().toLowerCase();
-                System.out.println(" ");
-                secondValidatingUserInput(questionHolder, enterCorrectAnswer, index);
+            userValidation(userAnswer, questionHolder, index);
+            if(userAnswer.equals("a")){
+                firstAnswerHolder.add(questionHolder[index]);
+            }
+            else if(userAnswer.equals("b")){
+                firstAnswerHolder.add(questionHolder[index + 1]);
             }
         }
 
+        System.out.println("\n");
+        System.out.println("Thank you " + userName + " for taking the MBTI personality test. \n YOU SELECTED: ");
+        int count = 1, secondCount = 1;
+        for (; count < firstAnswerHolder.size(); count++) {
+            if (count >= 5){
+                System.out.println(firstAnswerHolder.get(count));
+            }
+        }
+        System.out.println("Numbers of selected is: " + count + "\n");
+
+//        for (; secondCount < firstAnswerHolder.size(); secondCount++) {
+//            System.out.println(secondAnswerHolder.get(secondCount));
+//        }
+//        System.out.println("Numbers of B selected is: " + secondCount);
+
+    }
+
+    private static void userValidation(String userAnswer, String[] questionHolder, int index) {
+        String enterCorrectAnswer;
+        if (!userAnswer.equals("a") && !userAnswer.equals("b")) {
+            System.out.println("Expected A or B as Response \nI know this is an error, Please try again: ");
+            System.out.println(questionHolder[index] + "     " + questionHolder[index + 1]);
+            enterCorrectAnswer = scan.nextLine().toLowerCase();
+            secondValidatingUserInput(questionHolder, enterCorrectAnswer, index);
+        }
     }
     private static void secondValidatingUserInput(String[] questionHolder, String enterCorrectAnswer, int index) {
         if (!enterCorrectAnswer.equals("a") && !enterCorrectAnswer.equals("b")){
