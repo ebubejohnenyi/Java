@@ -41,19 +41,30 @@ public class PlayGround {
 //        positiveVal = ~(userInput2 - 1);
 //        System.out.println("The number to positive is: " + positiveVal);
 
-       int [][] arr = new int[5][5];
-       arr [0] = new int[5];
-       arr [1] = new int[4];
-       arr [2] = new int[3];
-       arr [3] = new int[2];
-       arr [4] = new int[3];
 
-       for (int index = 0; index < 5; index++) {
-           for (int secondIndex = 0; secondIndex < arr[index].length; secondIndex++) {
-                arr[index][secondIndex] = secondIndex;
-           }
+
+//       int [][] arr = new int[5][5];
+//       arr [0] = new int[5];
+//       arr [1] = new int[4];
+//       arr [2] = new int[3];
+//       arr [3] = new int[2];
+//       arr [4] = new int[3];
+//
+//       for (int index = 0; index < 5; index++) {
+//           for (int secondIndex = 0; secondIndex < arr[index].length; secondIndex++) {
+//                arr[index][secondIndex] = secondIndex;
+//           }
+//        }
+//        System.out.print(Arrays.deepToString(arr));
+
+        String str = "Ebube";
+        for (int index = 0; index < str.length(); index++) {
+           int hold = Integer.parseInt(str);
+
         }
-        System.out.print(Arrays.deepToString(arr));
+
+
+
 
 //        int [] firstRow = arr[0];
 //        for (int index = 0; index < firstRow.length; index++) {
