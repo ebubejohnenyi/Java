@@ -9,35 +9,44 @@ public class CreditCard {
 
     public static void validatingUserCreditCard() {
         Scanner scan = new Scanner(System.in);
-        System.out.print("Hello, Kindly Enter Card details to verify: ");   // 3788576018402626
-        String userCreditDetails = scan.nextLine();
-        String holdfirst = String.valueOf(userCreditDetails.charAt(0));
-        String holdfsecond = String.valueOf(userCreditDetails.charAt(1));
-        String join = holdfirst + holdfsecond;
+        System.out.print("Hello, Kindly Enter Card details to verify: ");
+        String userCreditCard = scan.nextLine();
+        check_TypeOf_Card(userCreditCard);
+        collectInputIndividually(userCreditCard);
+    }
+
+    public static void check_TypeOf_Card(String userCreditDetails) {
+        String join = firstAnd_SecondIndex(userCreditDetails);
         for (int count = 0; count < 1; count++) {
             if (userCreditDetails.startsWith(String.valueOf(4))){
-                System.out.println("This is a Visa Card:  " + userCreditDetails);
+                System.out.println("**Credit Card Type:  Visa Card");
                 break;
             }
             else if(userCreditDetails.startsWith(String.valueOf(5))){
-                System.out.println("This is a Master Card:  " + userCreditDetails);
+                System.out.println("**Credit Card Type:  Master Card");
                 break;
             }
             else if(userCreditDetails.startsWith(String.valueOf(6))){
-                System.out.println("This is a Discover Card:  " + userCreditDetails);
+                System.out.println("**Credit Card Type:  Discover Card");
                 break;
             }
             else if (userCreditDetails.startsWith(join)){
-                System.out.println("This is a American Card " + userCreditDetails);
+                System.out.println("**Credit Card Type:  American Card");
                 break;
             }
         }
-
-        collectInputIndividually(userCreditDetails);
-
+        System.out.println("**Credit Card Number: " + userCreditDetails);
+        System.out.println("**Credit Card  Digit Length: " + userCreditDetails.length());
     }
+
+    public static String firstAnd_SecondIndex(String userCreditDetails) {
+        String holdFirstIndex = String.valueOf(userCreditDetails.charAt(0));
+        String holdSecondIndex = String.valueOf(userCreditDetails.charAt(1));
+        return holdFirstIndex + holdSecondIndex;
+    }
+
     public static void collectInputIndividually(String userCreditDetails) {
-        String individualIndex = "", doubleHolder = "";
+        String individualIndex = "";
         int doubleNumber, holdIntegerIndex, sumInnerNumber = 0, sumAllNumbers = 0;
         for (int index = 0; index < userCreditDetails.length(); index += 2) {
             individualIndex = String.valueOf(userCreditDetails.charAt(index));
@@ -55,21 +64,19 @@ public class CreditCard {
             sumInnerNumber += doubleNumber;
         }
         sumAllNumbers += sumInnerNumber;
-        System.out.println("The sum of the single digit number: " + sumAllNumbers);
+        finalCalculation(userCreditDetails, sumAllNumbers);
 
+    }
+
+    public static void finalCalculation(String userCreditDetails, int sumAllNumbers) {
         int sumNumber = 0;
         for (int thirdIndex = userCreditDetails.length() -1; thirdIndex > 0; thirdIndex -= 2) {
             char getOdd = userCreditDetails.charAt(thirdIndex);
             String holdNumber = String.valueOf(getOdd);
             sumNumber += Integer.parseInt(holdNumber);
         }
-        System.out.println("The sum of the odd numbers is: " + sumNumber);
-
         int sumBoth_Number = sumAllNumbers + sumNumber;
-        System.out.println("the sum of the first calculation and second is: " + sumBoth_Number);
-
-        if(sumBoth_Number %  10 == 0) System.out.println("The Card is Valid " + userCreditDetails);
-        else System.out.println(" The Card is Invalid " + userCreditDetails);
-
+        if(sumBoth_Number %  10 == 0) System.out.println("**Credit Card Validity Status : Valid");
+        else System.out.println("**Credit Card Validity Status : Invalid");
     }
 }

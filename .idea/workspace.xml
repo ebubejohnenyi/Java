@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="debb0365-5e4e-4adc-b779-7eabb8b41d72" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/src/PlayGround/ClassWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PlayGround/MultiplyTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/Mystack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Things/Invertebrate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/DairyTest/DairyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Diary/Diary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/PlayGround/ClassWorkTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/PlayGround/MultiplyTwoNumbersTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/StackTest/MystackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArraySnacks/StringPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraySnacks/StringPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CreditCard/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreditCard/CreditCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlayGround/PlayGround.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlayGround/PlayGround.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/MBTITEST/PersonalityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/MBTITEST/PersonalityTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +184,7 @@
       <workItem from="1684496994533" duration="111443000" />
       <workItem from="1685025524856" duration="358000" />
       <workItem from="1685026105258" duration="6222000" />
-      <workItem from="1685055261978" duration="41039000" />
+      <workItem from="1685055261978" duration="42220000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1684318220937</created>
@@ -275,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684896540089</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Update">
+      <created>1685184944949</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1685184944949</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
