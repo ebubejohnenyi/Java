@@ -18,8 +18,20 @@ public class DairyTest {
         assertTrue(myDairy.isLocked());
     }
 
-    @Test public void diaryCan_beUnlocked(){
-        myDairy.unlockedWith("word password");
-        assertFalse(myDairy.isLocked());
+    @Test public void diaryCorrectPassword_andIncorrectPasswrd(){
+        myDairy.unlockedWith("password");
+        assertTrue(myDairy.isLocked());
+    }
+    @Test public void addEntry(){
+        myDairy.createEntry(12345,"My Dare Diary","I am a Digital Learner in Semicolon");
+        assertEquals(1, myDairy.getAddedEntry());
+    }
+    @Test public void deleteEntry(){
+        myDairy.deleteEntry();
+        assertEquals(0, myDairy.deleteEntry());
+    }
+    @Test public void findEntry(){
+        myDairy.findMy_gistById(12345);
+        assertEquals();
     }
 }
