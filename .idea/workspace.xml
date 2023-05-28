@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="debb0365-5e4e-4adc-b779-7eabb8b41d72" name="Changes" comment="Update">
+      <change afterPath="$PROJECT_DIR$/test/CreditCardTest/CreditCardTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CreditCard/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreditCard/CreditCard.java" afterDir="false" />
     </list>
@@ -75,78 +76,81 @@
       <recent name="ArraySnacksTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CreditCard">
-    <configuration name="CreditCard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CreditCard.CreditCard" />
+  <component name="RunManager" selected="JUnit.CreditCardTest.double_EverySecondDigit">
+    <configuration name="CreditCardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CreditCard.*" />
+          <option name="PATTERN" value="CreditCardTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DairyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DairyTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="DairyTest" />
-      <option name="MAIN_CLASS_NAME" value="DairyTest.DairyTest" />
+      <option name="PACKAGE_NAME" value="CreditCardTest" />
+      <option name="MAIN_CLASS_NAME" value="CreditCardTest.CreditCardTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DairyTest.diaryCan_beUnlocked" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreditCardTest.checkFor_DiscoverCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DairyTest.*" />
+          <option name="PATTERN" value="CreditCardTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="DairyTest" />
-      <option name="MAIN_CLASS_NAME" value="DairyTest.DairyTest" />
-      <option name="METHOD_NAME" value="diaryCan_beUnlocked" />
+      <option name="PACKAGE_NAME" value="CreditCardTest" />
+      <option name="MAIN_CLASS_NAME" value="CreditCardTest.CreditCardTest" />
+      <option name="METHOD_NAME" value="checkFor_DiscoverCard" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DairyTest.diaryIs_Locked" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreditCardTest.checkFor_americanExpressCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DairyTest.*" />
+          <option name="PATTERN" value="CreditCardTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="DairyTest" />
-      <option name="MAIN_CLASS_NAME" value="DairyTest.DairyTest" />
-      <option name="METHOD_NAME" value="diaryIs_Locked" />
+      <option name="PACKAGE_NAME" value="CreditCardTest" />
+      <option name="MAIN_CLASS_NAME" value="CreditCardTest.CreditCardTest" />
+      <option name="METHOD_NAME" value="checkFor_americanExpressCard" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DairyTest.diary_Exist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreditCardTest.checkUser_creditCardLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DairyTest.*" />
+          <option name="PATTERN" value="CreditCardTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="DairyTest" />
-      <option name="MAIN_CLASS_NAME" value="DairyTest.DairyTest" />
-      <option name="METHOD_NAME" value="diary_Exist" />
+      <option name="PACKAGE_NAME" value="CreditCardTest" />
+      <option name="MAIN_CLASS_NAME" value="CreditCardTest.CreditCardTest" />
+      <option name="METHOD_NAME" value="checkUser_creditCardLength" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreditCardTest.double_EverySecondDigit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CreditCardTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CreditCardTest" />
+      <option name="MAIN_CLASS_NAME" value="CreditCardTest.CreditCardTest" />
+      <option name="METHOD_NAME" value="double_EverySecondDigit" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -154,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CreditCard" />
-        <item itemvalue="JUnit.DairyTest.diaryCan_beUnlocked" />
-        <item itemvalue="JUnit.DairyTest" />
-        <item itemvalue="JUnit.DairyTest.diaryIs_Locked" />
-        <item itemvalue="JUnit.DairyTest.diary_Exist" />
+        <item itemvalue="JUnit.CreditCardTest.double_EverySecondDigit" />
+        <item itemvalue="JUnit.CreditCardTest" />
+        <item itemvalue="JUnit.CreditCardTest.checkUser_creditCardLength" />
+        <item itemvalue="JUnit.CreditCardTest.checkFor_americanExpressCard" />
+        <item itemvalue="JUnit.CreditCardTest.checkFor_DiscoverCard" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +188,7 @@
       <workItem from="1684496994533" duration="111443000" />
       <workItem from="1685025524856" duration="358000" />
       <workItem from="1685026105258" duration="6222000" />
-      <workItem from="1685055261978" duration="42220000" />
+      <workItem from="1685055261978" duration="50805000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1684318220937</created>
@@ -270,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685184944949</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Update">
+      <created>1685186161116</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1685186161116</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
