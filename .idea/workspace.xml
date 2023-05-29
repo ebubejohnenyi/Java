@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="debb0365-5e4e-4adc-b779-7eabb8b41d72" name="Changes" comment="Update" />
+    <list default="true" id="debb0365-5e4e-4adc-b779-7eabb8b41d72" name="Changes" comment="Update">
+      <change afterPath="$PROJECT_DIR$/src/ImplementList/ListImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ImplementListTest/ListImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,78 +77,81 @@
       <recent name="ArraySnacksTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainApplication">
-    <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Diary.MainApplication" />
+  <component name="RunManager" selected="JUnit.ListImplementationTest.removeFromList">
+    <configuration name="ListImplementationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Diary.*" />
+          <option name="PATTERN" value="ImplementListTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DairyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DairyTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="DairyTest" />
-      <option name="MAIN_CLASS_NAME" value="DairyTest.DairyTest" />
+      <option name="PACKAGE_NAME" value="ImplementListTest" />
+      <option name="MAIN_CLASS_NAME" value="ImplementListTest.ListImplementationTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DairyTest.diaryCorrectPassword_andIncorrectPasswrd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ListImplementationTest.addToList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DairyTest.*" />
+          <option name="PATTERN" value="ImplementListTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="DairyTest" />
-      <option name="MAIN_CLASS_NAME" value="DairyTest.DairyTest" />
-      <option name="METHOD_NAME" value="diaryCorrectPassword_andIncorrectPasswrd" />
+      <option name="PACKAGE_NAME" value="ImplementListTest" />
+      <option name="MAIN_CLASS_NAME" value="ImplementListTest.ListImplementationTest" />
+      <option name="METHOD_NAME" value="addToList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DairyTest.findEntry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ListImplementationTest.addToListDouble" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DairyTest.*" />
+          <option name="PATTERN" value="ImplementListTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="DairyTest" />
-      <option name="MAIN_CLASS_NAME" value="DairyTest.DairyTest" />
-      <option name="METHOD_NAME" value="findEntry" />
+      <option name="PACKAGE_NAME" value="ImplementListTest" />
+      <option name="MAIN_CLASS_NAME" value="ImplementListTest.ListImplementationTest" />
+      <option name="METHOD_NAME" value="addToListDouble" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DairyTest.updateEntry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ListImplementationTest.removeFromList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DairyTest.*" />
+          <option name="PATTERN" value="ImplementListTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="DairyTest" />
-      <option name="MAIN_CLASS_NAME" value="DairyTest.DairyTest" />
-      <option name="METHOD_NAME" value="updateEntry" />
+      <option name="PACKAGE_NAME" value="ImplementListTest" />
+      <option name="MAIN_CLASS_NAME" value="ImplementListTest.ListImplementationTest" />
+      <option name="METHOD_NAME" value="removeFromList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListImplementationTest.theList_isEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ImplementListTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ImplementListTest" />
+      <option name="MAIN_CLASS_NAME" value="ImplementListTest.ListImplementationTest" />
+      <option name="METHOD_NAME" value="theList_isEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainApplication" />
-        <item itemvalue="JUnit.DairyTest" />
-        <item itemvalue="JUnit.DairyTest.updateEntry" />
-        <item itemvalue="JUnit.DairyTest.diaryCorrectPassword_andIncorrectPasswrd" />
-        <item itemvalue="JUnit.DairyTest.findEntry" />
+        <item itemvalue="JUnit.ListImplementationTest.removeFromList" />
+        <item itemvalue="JUnit.ListImplementationTest" />
+        <item itemvalue="JUnit.ListImplementationTest.addToList" />
+        <item itemvalue="JUnit.ListImplementationTest.addToListDouble" />
+        <item itemvalue="JUnit.ListImplementationTest.theList_isEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +190,7 @@
       <workItem from="1685025524856" duration="358000" />
       <workItem from="1685026105258" duration="6222000" />
       <workItem from="1685055261978" duration="69693000" />
-      <workItem from="1685361203792" duration="1271000" />
+      <workItem from="1685361203792" duration="6455000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1684318220937</created>
@@ -304,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685362377751</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Update">
+      <created>1685362497658</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1685362497658</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
