@@ -32,6 +32,13 @@ public class ListImplementationTest {
         listImplementation.push("Today");
         listImplementation.push("Tomorrow");
         listImplementation.pop();
-        assertEquals(0,listImplementation.getPop_fromList());
+        assertEquals(1,listImplementation.pop());
+    }
+    @Test public void removeTwo_ElementFrom_List(){
+        listImplementation.emptyList();
+        listImplementation.push("Today");
+        listImplementation.push("Tomorrow");
+        listImplementation.pop();
+        assertEquals(1,listImplementation.pop());
     }
 }
