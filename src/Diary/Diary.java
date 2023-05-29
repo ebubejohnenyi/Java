@@ -5,16 +5,21 @@ import java.util.List;
 
 public class Diary {
     private boolean isLocked = true;
+    private boolean isUnlocked = true;
     private String password;
     private int counter;
     private String title;
     private String body;
-    private List <Gists> newGistGists = new ArrayList<>();
+    private String id;
+    private List <Gists> newGists = new ArrayList<>();
 
     public Diary(String username, String password) {
         this.password = password;
     }
-    public boolean isLocked() {
+    public boolean isUnlocked() {
+        return isUnlocked;
+    }
+    public boolean islocked() {
         return isLocked;
     }
     public void setTitle(String title){
@@ -29,9 +34,14 @@ public class Diary {
     public  String getBody(){
         return body;
     }
+    public void setId(String id) {
+        this.id = id;
+    }
+    public String getId() {
+        return id;
+    }
     public void unlockedWith(String password) {
         if(password.equals(this.password)){
-            System.out.println("Password is correct");
             isLocked = true;
         }
         else {
@@ -39,29 +49,34 @@ public class Diary {
             isLocked = false;
         }
     }
-    public void createEntry(int id, String title, String body) {
-        Gists newGists = new Gists(id,title,body);
-        newGistGists.add(newGists);
+    public void createEntry (String title, String body) {
+        Gists newGists = new Gists(title,body);
+        this.newGists.add(newGists);
         counter++;
     }
     public int getAddedEntry() {
-        return newGistGists.size();
+        return newGists.size();
     }
     public int deleteEntry() {
-        return newGistGists.size();
+        return counter--;
     }
 
-    public Object findMy_gistById(int id){
-        for (Gists gist : newGistGists) {
-            if(gist.equals(getId())){
-                return id;
-            }
+    public Gists findMy_gistById(String Id){
+        for (Gists gist : newGists) {
+           if(gist.getTitle().equalsIgnoreCase(Id)){
+               return gist;
+           }
         }
         return null;
     }
 
-    private Gists getId() {
-        return Gists;
+    public void updateEntry(int id, String title, String body){
+        for (Gists gist: newGists) {
+            if(gist.getId()==id){
+               gist.setTitle(title);
+               gist.setBody(body);
+            }
+        }
     }
 
 }
