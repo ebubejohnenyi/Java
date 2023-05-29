@@ -16,29 +16,34 @@ public class ListImplementationTest {
     }
     @Test public void addToList(){
         listImplementation.emptyList();
-        assertTrue(listImplementation.emptyList());
-        listImplementation.push("Today");
+        listImplementation.addToList(1);
         assertEquals(1, listImplementation.getAdded_Element());
     }
     @Test public void addToListDouble(){
         listImplementation.emptyList();
-        assertTrue(listImplementation.emptyList());
-        listImplementation.push("Today");
-        listImplementation.push("Tomorrow");
+        listImplementation.addToList(1);
+        listImplementation.addToList(2);
         assertEquals(2, listImplementation.getAdded_Element());
     }
     @Test public void removeFromList(){
         listImplementation.emptyList();
-        listImplementation.push("Today");
-        listImplementation.push("Tomorrow");
-        listImplementation.pop();
-        assertEquals(1,listImplementation.pop());
+        listImplementation.addToList(1);
+        listImplementation.removeFromList(1);
+        assertEquals(0,listImplementation.checkIfRemoved());
     }
     @Test public void removeTwo_ElementFrom_List(){
         listImplementation.emptyList();
-        listImplementation.push("Today");
-        listImplementation.push("Tomorrow");
-        listImplementation.pop();
-        assertEquals(1,listImplementation.pop());
+        listImplementation.addToList(1);
+        listImplementation.addToList(2);
+        listImplementation.removeFromList(1);
+        assertEquals(1,listImplementation.checkIfRemoved());
+    }
+    @Test public void isPresent_InList(){
+        listImplementation.emptyList();
+        listImplementation.addToList(1);
+        listImplementation.addToList(2);
+        listImplementation.removeFromList(1);
+        listImplementation.containsInList(1);
+        assertTrue(listImplementation.containsInList(1));
     }
 }
