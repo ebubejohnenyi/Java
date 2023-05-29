@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="debb0365-5e4e-4adc-b779-7eabb8b41d72" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/src/Bicycle/BackWheel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bicycle/Bicycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bicycle/BrakeLever.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bicycle/BrakeSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bicycle/Brakes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bicycle/DriveSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bicycle/Fork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bicycle/FrontWheel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bicycle/Gear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bicycle/HandleBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bicycle/Pedal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bicycle/SteerSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bicycle/Wheel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Diary/Diaries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Diary/MainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Diary/Diary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diary/Diary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Diary/Gists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diary/Gists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/DairyTest/DairyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DairyTest/DairyTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="debb0365-5e4e-4adc-b779-7eabb8b41d72" name="Changes" comment="Update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -203,7 +183,7 @@
       <workItem from="1685025524856" duration="358000" />
       <workItem from="1685026105258" duration="6222000" />
       <workItem from="1685055261978" duration="69693000" />
-      <workItem from="1685361203792" duration="922000" />
+      <workItem from="1685361203792" duration="1271000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1684318220937</created>
@@ -310,7 +290,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685278595659</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Update">
+      <created>1685362264305</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1685362264305</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Update">
+      <created>1685362377751</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1685362377751</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
