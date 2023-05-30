@@ -46,4 +46,24 @@ public class ListImplementationTest {
         listImplementation.containsInList(1);
         assertTrue(listImplementation.containsInList(1));
     }
+    @Test public void LoopThroughList(){
+        listImplementation.emptyList();
+        listImplementation.addToList(1);
+        listImplementation.addToList(2);
+        listImplementation.addToList(3);
+        listImplementation.addToList(4);
+        listImplementation.addToList(5);
+        listImplementation.allList(5);
+        assertEquals(5,listImplementation.getAllList());
+    }
+    @Test public void clearList(){
+        listImplementation.emptyList();
+        listImplementation.addToList(1);
+        listImplementation.addToList(2);
+        listImplementation.addToList(3);
+        listImplementation.addToList(4);
+        listImplementation.addToList(5);
+        listImplementation.clearAll_Element(5);
+        assertEquals(0, listImplementation.elementCleared());
+    }
 }

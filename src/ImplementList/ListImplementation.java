@@ -1,13 +1,13 @@
 package ImplementList;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class ListImplementation {
     private int listSize;
     private int element;
     private boolean isPresent = true;
-    private List <Integer> myList = new ArrayList<>(5);
     private int [] listHolder;
 
     public boolean emptyList() {
@@ -43,5 +43,24 @@ public class ListImplementation {
             }
         }
         return false;
+    }
+    public void allList(int element) {
+        for (int index = 0; index < listHolder.length; index++) {
+            listHolder[index] = element;
+        }
+    }
+    public int getAllList() {
+        return listSize;
+    }
+
+    public void clearAll_Element(int element) {
+        for (int index = 0; index < listHolder.length; index++) {
+            listHolder[index] = element;
+            listSize--;
+        }
+    }
+
+    public int elementCleared() {
+        return listSize;
     }
 }

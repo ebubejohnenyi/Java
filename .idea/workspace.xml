@@ -77,8 +77,8 @@
       <recent name="ArraySnacksTest" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ListImplementationTest.isPresent_InList">
-    <configuration name="ListImplementationTest.addToList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ListImplementationTest.clearList">
+    <configuration name="ListImplementationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -88,13 +88,28 @@
       </extension>
       <option name="PACKAGE_NAME" value="ImplementListTest" />
       <option name="MAIN_CLASS_NAME" value="ImplementListTest.ListImplementationTest" />
-      <option name="METHOD_NAME" value="addToList" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListImplementationTest.LoopThroughList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ImplementListTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ImplementListTest" />
+      <option name="MAIN_CLASS_NAME" value="ImplementListTest.ListImplementationTest" />
+      <option name="METHOD_NAME" value="LoopThroughList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListImplementationTest.addToListDouble" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ListImplementationTest.clearList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -104,7 +119,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ImplementListTest" />
       <option name="MAIN_CLASS_NAME" value="ImplementListTest.ListImplementationTest" />
-      <option name="METHOD_NAME" value="addToListDouble" />
+      <option name="METHOD_NAME" value="clearList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,22 +136,6 @@
       <option name="PACKAGE_NAME" value="ImplementListTest" />
       <option name="MAIN_CLASS_NAME" value="ImplementListTest.ListImplementationTest" />
       <option name="METHOD_NAME" value="isPresent_InList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListImplementationTest.removeFromList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ImplementListTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ImplementListTest" />
-      <option name="MAIN_CLASS_NAME" value="ImplementListTest.ListImplementationTest" />
-      <option name="METHOD_NAME" value="removeFromList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ListImplementationTest.clearList" />
+        <item itemvalue="JUnit.ListImplementationTest" />
+        <item itemvalue="JUnit.ListImplementationTest.LoopThroughList" />
         <item itemvalue="JUnit.ListImplementationTest.isPresent_InList" />
         <item itemvalue="JUnit.ListImplementationTest.removeTwo_ElementFrom_List" />
-        <item itemvalue="JUnit.ListImplementationTest.removeFromList" />
-        <item itemvalue="JUnit.ListImplementationTest.addToListDouble" />
-        <item itemvalue="JUnit.ListImplementationTest.addToList" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +190,7 @@
       <workItem from="1685025524856" duration="358000" />
       <workItem from="1685026105258" duration="6222000" />
       <workItem from="1685055261978" duration="69693000" />
-      <workItem from="1685361203792" duration="16576000" />
+      <workItem from="1685361203792" duration="18783000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1684318220937</created>
@@ -333,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685377697320</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Update">
+      <created>1685403011523</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1685403011524</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
