@@ -1,9 +1,5 @@
 package ImplementList;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 public class ListImplementation {
     private int listSize;
     private int element;
@@ -61,6 +57,17 @@ public class ListImplementation {
     }
 
     public int elementCleared() {
+        return listSize;
+    }
+
+    public void set(int element) {
+        for (int secondIndex = 0; secondIndex < listHolder.length; secondIndex++) {
+            listHolder[secondIndex] = element;
+        }
+        listSize++;
+    }
+
+    public int getSet_Element() {
         return listSize;
     }
 }

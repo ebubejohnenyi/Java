@@ -66,4 +66,14 @@ public class ListImplementationTest {
         listImplementation.clearAll_Element(5);
         assertEquals(0, listImplementation.elementCleared());
     }
+    @Test public void setIn_List(){
+        listImplementation.emptyList();
+        listImplementation.addToList(1);
+        listImplementation.addToList(2);
+        listImplementation.addToList(3);
+        listImplementation.set(4);
+        assertEquals(4, listImplementation.getSet_Element());
+        assertTrue(listImplementation.containsInList(4));
+//
+    }
 }
