@@ -57,11 +57,13 @@ public class PlayGround {
 //        }
 //        System.out.print(Arrays.deepToString(arr));
 
-        String str = "Ebube";
-        for (int index = 0; index < str.length(); index++) {
-           int hold = Integer.parseInt(str);
 
-        }
+
+//        String str = "Ebube";
+//        for (int index = 0; index < str.length(); index++) {
+//           int hold = Integer.parseInt(str);
+//
+//        }
 
 
 
@@ -72,6 +74,15 @@ public class PlayGround {
 //        }
 //        System.out.println(Arrays.deepToString(arr));
 
+
+    }
+
+    public static int getIndexOfFirstFound(String text, String[] words){
+        return Arrays.stream(words)
+                .mapToInt(text :: indexOf)
+                .filter(i -> i >= 0)
+                .findFirst()
+                .orElse(-1);
     }
 
 //    private static void myMethod(int[] firstRow, int index) {

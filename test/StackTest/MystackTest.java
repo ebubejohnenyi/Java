@@ -17,7 +17,7 @@
 //    }
 //    @Test public void pushX_stackShould_beEmpty(){
 //        stack.push("E-String");
-//        assertFalse(stack.isEmpty());
+//        assertFalse(stack.i   sEmpty());
 //    }
 //    @Test public void pushX_popX_stackShould_beEmpty(){
 //        stack.push("E-String");
