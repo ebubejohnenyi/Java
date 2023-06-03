@@ -63,61 +63,36 @@ public class ListImplementationTest {
         listImplementation.addToList(3,4);
         assertEquals(4,listImplementation.size());
     }
-//    @Test public void LoopThroughList(){
-//        listImplementation.emptyList();
-//        listImplementation.addToList(1);
-//        listImplementation.addToList(2);
-//        listImplementation.addToList(3);
-//        listImplementation.addToList(4);
-//        listImplementation.addToList(5);
-//        listImplementation.allList(5);
-//        assertEquals(5,listImplementation.getAllList());
-//    }
-//    @Test public void clearList(){
-//        listImplementation.emptyList();
-//        listImplementation.addToList(1);
-//        listImplementation.addToList(2);
-//        listImplementation.addToList(3);
-//        listImplementation.addToList(4);
-//        listImplementation.addToList(5);
-//        listImplementation.clearAll_Element(5);
-//        assertEquals(0, listImplementation.elementCleared());
-//    }
-//    @Test public void setIn_List(){
-//        listImplementation.emptyList();
-//        listImplementation.addToList(1);
-//        listImplementation.addToList(2);
-//        listImplementation.addToList(3);
-//        listImplementation.set(4);
-//        assertEquals(4, listImplementation.getSet_Element());
-//        assertTrue(listImplementation.containsInList(4));
-//    }
-//    @Test public void getElement(){
-//        listImplementation.emptyList();
-//        listImplementation.addToList(0,1);
-//        listImplementation.addToList(1,2);
-//        listImplementation.addToList(2,3);
-//        listImplementation.getElement(2);
-//        assertEquals(3, listImplementation.getElement(2));
-//    }
-//    @Test public void indexOf(){
-//        listImplementation.emptyList();
-//        listImplementation.addToList(1);
-//        listImplementation.addToList(2);
-//        listImplementation.addToList(3);
-//        listImplementation.addToList(3);
-//        listImplementation.indexOf(3);
-//        assertEquals(3,listImplementation.indexOf(3));
-//    }
-//    @Test public void lastOccurrence_indexOf(){
-//        listImplementation.emptyList();
-//        listImplementation.addToList(1);
-//        listImplementation.addToList(2);
-//        listImplementation.addToList(3);
-//        listImplementation.addToList(3);
-//        listImplementation.indexOf(3);
-//        assertEquals(3,listImplementation.indexOf(3));
-//    }
+    @Test public void test_CanGet(){
+        listImplementation.emptyList();
+        listImplementation.addToList(0,1);
+        listImplementation.addToList(1,2);
+        listImplementation.addToList(2,3);
+        assertEquals(1, listImplementation.get(0,1));
+    }
+
+    @Test public void test_That_ListSet(){
+        listImplementation.emptyList();
+        listImplementation.addToList(0,1);
+        listImplementation.addToList(1,2);
+        assertEquals(3, listImplementation.set(1,3));
+    }
+    @Test public void test_ForIndexOf(){
+        listImplementation.emptyList();
+        listImplementation.addToList(0,1);
+        listImplementation.addToList(1,2);
+        listImplementation.addToList(2,3);
+        listImplementation.addToList(3,4);
+        assertEquals(3, listImplementation.indexOf(4));
+    }
+    @Test public void testFor_LastIndex(){
+        listImplementation.emptyList();
+        listImplementation.addToList(0,3);
+        listImplementation.addToList(1,2);
+        listImplementation.addToList(2,1);
+        listImplementation.lastIndexOf(1);
+        assertEquals(2, listImplementation.indexOf(1));
+    }
 //    @Test public void EqualElement_inList(){
 //        listImplementation.emptyList();
 //        listImplementation.addToList(1);

@@ -22,6 +22,10 @@ public class DairyTest {
         myDairy.unlockedWith("password");
         assertTrue(myDairy.isUnlocked());
     }
+    @Test public void testFor_setBody(){
+        myDairy.setTitle("My Dare Dairy");
+        assertEquals("My Dare Dairy",myDairy.getTitle());
+    }
     @Test public void addEntry(){
         myDairy.unlockedWith("password");
         assertTrue(myDairy.isUnlocked());
@@ -41,6 +45,7 @@ public class DairyTest {
         myDairy.createEntry("My Dare Dairy","I am a Digital Learner in Semicolon");
         myDairy.createEntry("Vampire Dairy","I'll come hunt you");
         Gists body = myDairy.findMy_gistById("Vampire Dairy");
+        assertEquals("Vampire Dairy", myDairy.getTitle());
         assertEquals("I'll come hunt you", body.getBody());
     }
     @Test public  void updateEntry(){
@@ -52,4 +57,5 @@ public class DairyTest {
         Gists body = myDairy.findMy_gistById("Software Engineer");
         assertEquals("I will become whom i want to be", body.getBody());
     }
+
 }
