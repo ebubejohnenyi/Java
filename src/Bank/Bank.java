@@ -16,10 +16,15 @@ public class Bank {
       return newCustomer.size();
    }
    public String generateCustomerAccountNumberWith(String phoneNumber) {
-      for (int index = 0; index < phoneNumber.length(); index++) {
-         accountNumber = phoneNumber.replaceFirst(String.valueOf(0), "");
+      if(phoneNumber.length() > 11){
+         return null;
       }
-      return accountNumber;
+      else {
+         for (int index = 0; index < phoneNumber.length(); index++) {
+            accountNumber = phoneNumber.replaceFirst(String.valueOf(0), "");
+         }
+         return accountNumber;
+      }
    }
    public void deposit(String accountNumber, int amount) {
       for (Account newAccountNumber : newCustomer) {

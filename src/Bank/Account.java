@@ -24,7 +24,12 @@ public class Account {
         this.pin = pin;
     }
     public void deposit(int amount) {
-        initialBalance += amount;
+        if(amount < 0){
+            System.out.println("Insufficient Fund");
+        }
+        else {
+            initialBalance += amount;
+        }
     }
     public int getBalance() {
         return initialBalance;
@@ -49,7 +54,12 @@ public class Account {
     }
     public void withdraw(String pin, int amount) {
         if(Objects.equals(this.pin, pin)){
-            initialBalance -= amount;
+            if(amount < 0){
+                System.out.println("Insufficient Fund");
+            }
+            else{
+                initialBalance -= amount;
+            }
         }
         else{
             System.out.println("Incorrect pin");
