@@ -1,11 +1,11 @@
 package Bank;
 
+import java.util.Objects;
+
 public class Account {
-    private int accountBalance;
     private int initialBalance = 0;
     private boolean isEmpty = true;
-    private boolean isCorrect = true;
-    private String pin;
+    private String pin = "1234";
     private String name;
     private String phoneNumber;
     private String accountNumber;
@@ -16,50 +16,52 @@ public class Account {
     public boolean isEmpty() {
         return isEmpty;
     }
-    public void deposit(int amount) {
-        accountBalance = initialBalance + amount;
+    public String getPin() {
+        return pin;
     }
-    public int getBalance() {
-        return accountBalance;
-    }
-    public void withdraw(String pin, int amount) {
-        if(this.pin == pin){
-            isCorrect = true;
-            initialBalance -= amount;
-        }
-        else if(this.pin != pin){
-            System.out.println("Incorrect pin");
-            isCorrect = false;
-        }
-    }
+
     public void setPin(String pin) {
         this.pin = pin;
     }
-    public boolean pinIsCorrect() {
-        return isCorrect;
+    public void deposit(int amount) {
+        initialBalance += amount;
     }
-
-    public int checkBalance(String pin) {
-        if(this.pin == pin){
-            isCorrect = true;
-            return getBalance();
-        }
-        else if(this.pin != pin){
-            System.out.println("Incorrect pin");
-            isCorrect = false;
-        }
-        return 0;
+    public int getBalance() {
+        return initialBalance;
     }
-    public String generateAccountNumberWith(String phoneNumber) {
-        for (int index = 0; index < phoneNumber.length(); index++) {
-            accountNumber = phoneNumber.replaceFirst(String.valueOf(0), "");
-        }
-        return accountNumber;
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+    public String getPhoneNumber() {
+        return phoneNumber;
     }
     public void setAccountNumber(String accountNumber) {
         this.accountNumber = accountNumber;
     }
     public String getAccountNumber() {
         return accountNumber;
+    }
+    public void withdraw(String pin, int amount) {
+        if(Objects.equals(this.pin, pin)){
+            initialBalance -= amount;
+        }
+        else{
+            System.out.println("Incorrect pin");
+        }
+    }
+    public int checkBalance(String pin) {
+        if(this.pin.equals(pin)){
+            return getBalance();
+        }
+        else{
+            System.out.println("Incorrect pin");
+        }
+        return 0;
     }
 }

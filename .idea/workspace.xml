@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="debb0365-5e4e-4adc-b779-7eabb8b41d72" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/src/Bank/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bank/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaExercise/DuplicateNumbersInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/BankTest/AccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/BankTest/BankTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImplementList/ListImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ImplementList/ListImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/DairyTest/DairyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DairyTest/DairyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ImplementListTest/ListImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ImplementListTest/ListImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bank/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bank/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bank/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bank/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/BankTest/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/BankTest/AccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/BankTest/BankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/BankTest/BankTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +82,7 @@
       <recent name="ArraySnacksTest" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BankTest.test_iCan_Deposit">
+  <component name="RunManager" selected="JUnit.BankTest.test_ICan_transfer">
     <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
@@ -102,7 +98,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountTest.test_for_Deposit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AccountTest.test_I_can_checkBalance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -112,29 +108,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="BankTest" />
       <option name="MAIN_CLASS_NAME" value="BankTest.AccountTest" />
-      <option name="METHOD_NAME" value="test_for_Deposit" />
+      <option name="METHOD_NAME" value="test_I_can_checkBalance" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountTest.test_iCan_generateAccountNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BankTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="BankTest" />
-      <option name="MAIN_CLASS_NAME" value="BankTest.AccountTest" />
-      <option name="METHOD_NAME" value="test_iCan_generateAccountNumber" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BankTest.generateCustomerAccountNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BankTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -144,13 +124,12 @@
       </extension>
       <option name="PACKAGE_NAME" value="BankTest" />
       <option name="MAIN_CLASS_NAME" value="BankTest.BankTest" />
-      <option name="METHOD_NAME" value="generateCustomerAccountNumber" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankTest.test_iCan_Deposit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BankTest.test_ICan_Withdraw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -160,7 +139,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="BankTest" />
       <option name="MAIN_CLASS_NAME" value="BankTest.BankTest" />
-      <option name="METHOD_NAME" value="test_iCan_Deposit" />
+      <option name="METHOD_NAME" value="test_ICan_Withdraw" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankTest.test_ICan_transfer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BankTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BankTest" />
+      <option name="MAIN_CLASS_NAME" value="BankTest.BankTest" />
+      <option name="METHOD_NAME" value="test_ICan_transfer" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -168,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BankTest.test_iCan_Deposit" />
-        <item itemvalue="JUnit.AccountTest.test_iCan_generateAccountNumber" />
-        <item itemvalue="JUnit.AccountTest.test_for_Deposit" />
+        <item itemvalue="JUnit.BankTest.test_ICan_transfer" />
+        <item itemvalue="JUnit.BankTest" />
+        <item itemvalue="JUnit.AccountTest.test_I_can_checkBalance" />
+        <item itemvalue="JUnit.BankTest.test_ICan_Withdraw" />
         <item itemvalue="JUnit.AccountTest" />
-        <item itemvalue="JUnit.BankTest.generateCustomerAccountNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +197,7 @@
       <workItem from="1685361203792" duration="33412000" />
       <workItem from="1685464049280" duration="6700000" />
       <workItem from="1685535603979" duration="1204000" />
-      <workItem from="1685537142896" duration="56743000" />
+      <workItem from="1685537142896" duration="69403000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1684318220937</created>
@@ -379,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685544222139</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Update">
+      <created>1685803538010</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1685803538010</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
