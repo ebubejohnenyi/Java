@@ -69,22 +69,28 @@ public class Personality {
                 firstAnswerHolder.add(questionHolder[index + 1]);
             }
         }
-
         System.out.println("\n");
-        System.out.println("Thank you " + userName + " for taking the MBTI personality test. \n YOU SELECTED: ");
-        int count = 1, secondCount = 1;
-        for (; count < firstAnswerHolder.size(); count++) {
-            if (count >= 5){
+        System.out.println("Thank you " + userName + " for taking the MBTI personality test. \nYOU SELECTED: ");
+        int count = 0;
+        for (; count < 5; count++) {
                 System.out.println(firstAnswerHolder.get(count));
-            }
         }
         System.out.println("Numbers of selected is: " + count + "\n");
-
-//        for (; secondCount < firstAnswerHolder.size(); secondCount++) {
-//            System.out.println(secondAnswerHolder.get(secondCount));
-//        }
-//        System.out.println("Numbers of B selected is: " + secondCount);
-
+        int secondIndex = 5;
+        for (; secondIndex < 10; secondIndex++) {
+            System.out.println(firstAnswerHolder.get(secondIndex));
+        }
+        System.out.println("Numbers of selected is: " + secondIndex + "\n");
+        int thirdIndex = 10;
+        for (; thirdIndex < 15; thirdIndex++) {
+            System.out.println(firstAnswerHolder.get(thirdIndex));
+        }
+        System.out.println("Numbers of selected is: " + thirdIndex + "\n");
+        int forthIndex = 15;
+        for (;forthIndex < 20; forthIndex++) {
+            System.out.println(firstAnswerHolder.get(forthIndex));
+        }
+        System.out.println("Numbers of selected is: " + forthIndex + "\n");
     }
 
     private static void userValidation(String userAnswer, String[] questionHolder, int index) {

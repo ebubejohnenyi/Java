@@ -5,13 +5,14 @@ import java.util.Objects;
 public class Account {
     private int initialBalance = 0;
     private boolean isEmpty = true;
-    private String pin = "1234";
+    private String pin;
     private String name;
     private String phoneNumber;
     private String accountNumber;
-    public Account(String name, String phoneNumber) {
+    public Account(String name, String phoneNumber, String pin) {
         this.name = name;
         this.phoneNumber = phoneNumber;
+        this.pin = pin;
     }
     public boolean isEmpty() {
         return isEmpty;

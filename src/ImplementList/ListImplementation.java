@@ -15,7 +15,7 @@ public class ListImplementation {
 
     public void addToList(int index, int element) {
         listHolder = new int[5];
-        for (int startingLoop = 0; startingLoop < listHolder.length; startingLoop++) {
+        for (int startingLoop = 0; startingLoop < listHolder.length * 2; startingLoop++) {
             listHolder[index] = element;
         }
         listSize++;

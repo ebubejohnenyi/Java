@@ -5,8 +5,8 @@ import java.util.List;
 public class Bank {
    private List <Account> newCustomer = new ArrayList<>();
    private String accountNumber;
-   public void registerNewCustomer(String name, String phoneNumber) {
-      Account newAccount = new Account(name,phoneNumber);
+   public void registerNewCustomer(String name, String phoneNumber,String pin) {
+      Account newAccount = new Account(name,phoneNumber,pin);
       newCustomer.add(newAccount);
       newAccount.setPhoneNumber(phoneNumber);
       newAccount.setName(name);
@@ -33,7 +33,6 @@ public class Bank {
          }
       }
    }
-
    public int getBalance(String accountNumber) {
       for (Account newAccountBalance : newCustomer) {
          if(newAccountBalance.getAccountNumber().equals(accountNumber)){
@@ -42,7 +41,6 @@ public class Bank {
       }
       return 0;
    }
-
    public void withdraw(String accountNumber, String pin, int amount) {
       for (Account newAccountNumber : newCustomer) {
          if (newAccountNumber.getAccountNumber().equals(accountNumber)){
@@ -50,7 +48,6 @@ public class Bank {
          }
       }
    }
-
    public void transferTo(String senderAccountNumber, String receiverAccountNumber, int amount, String pin) {
       for (Account newAccount: newCustomer) {
          if (newAccount.getAccountNumber().equals(senderAccountNumber)){
