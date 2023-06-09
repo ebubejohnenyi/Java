@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Person {
     List<Problems> problems = new ArrayList<>();
-    private boolean isSolved;
+    private boolean isSolved = true;
     Problems solveProblem;
 
     public void addProblem(String name, TypeOfProblem type){
@@ -16,12 +16,14 @@ public class Person {
         return problems.size();
     }
     public void solveProblem(String name, TypeOfProblem type){
-        solveProblem = new Problems(name, type);
-        problems.remove(solveProblem);
-        isSolved = true;
+        for (Problems newProblems : problems) {
+           if(newProblems.getName().equals(name) && newProblems.getType().equals(type)){
+               problems.remove(newProblems);
+               break;
+           }
+        }
     }
     public boolean isProblemSolved() {
-        problems.remove(solveProblem);
         return isSolved;
     }
 }

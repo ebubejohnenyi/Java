@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="debb0365-5e4e-4adc-b779-7eabb8b41d72" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/src/ATM/Automated_Teller_Machine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bank/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bank/MainBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PlayGround/Play.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PlayGround/SpreadArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bank/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bank/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ATM/Automated_Teller_Machine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ATM/Automated_Teller_Machine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Bank/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bank/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImplementList/ListImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ImplementList/ListImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MBTI/Personality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MBTI/Personality.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/BankTest/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/BankTest/AccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problem/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/BankTest/BankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/BankTest/BankTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Problem/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Problem/PersonTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +57,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;/home/jon_snow/IdeaProjects/Java/src/Main.java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
@@ -85,13 +88,13 @@
       <recent name="ArraySnacksTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Personality">
-    <configuration name="Automated_Teller_Machine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ATM.Automated_Teller_Machine" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bank.Main" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ATM.*" />
+          <option name="PATTERN" value="Bank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,15 +102,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Personality" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MBTI.Personality" />
+    <configuration name="Play" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PlayGround.Play" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MBTI.*" />
+          <option name="PATTERN" value="PlayGround.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpreadArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PlayGround.SpreadArray" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PlayGround.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BankTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BankTest" />
+      <option name="MAIN_CLASS_NAME" value="BankTest.AccountTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,44 +158,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListImplementationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ImplementListTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ImplementListTest" />
-      <option name="MAIN_CLASS_NAME" value="ImplementListTest.ListImplementationTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListImplementationTest.addToList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ImplementListTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ImplementListTest" />
-      <option name="MAIN_CLASS_NAME" value="ImplementListTest.ListImplementationTest" />
-      <option name="METHOD_NAME" value="addToList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Personality" />
-        <item itemvalue="Application.Automated_Teller_Machine" />
-        <item itemvalue="JUnit.ListImplementationTest" />
-        <item itemvalue="JUnit.ListImplementationTest.addToList" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.AccountTest" />
         <item itemvalue="JUnit.BankTest" />
+        <item itemvalue="Application.Play" />
+        <item itemvalue="Application.SpreadArray" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +195,12 @@
       <workItem from="1685464049280" duration="6700000" />
       <workItem from="1685535603979" duration="1204000" />
       <workItem from="1685537142896" duration="88647000" />
-      <workItem from="1686000617762" duration="4174000" />
+      <workItem from="1686000617762" duration="20961000" />
+      <workItem from="1686138155045" duration="363000" />
+      <workItem from="1686139336104" duration="3209000" />
+      <workItem from="1686177977275" duration="10316000" />
+      <workItem from="1686230600819" duration="12612000" />
+      <workItem from="1686298592591" duration="2365000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1684318220937</created>
@@ -400,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685883907470</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Update">
+      <created>1686039436884</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1686039436884</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -13,7 +13,7 @@ public class BankTest {
     }
     @Test public void generateCustomerAccountNumber(){
         myBankAccount.generateCustomerAccountNumberWith("09054498013");
-        assertEquals("9054498013", myBankAccount.generateCustomerAccountNumberWith("09054498013"));
+        assertEquals(" 9054498013", myBankAccount.generateCustomerAccountNumberWith("09054498013"));
     }
     @Test public void test_iCan_Deposit(){
         myBankAccount.registerNewCustomer("John", "09054498013","1234");

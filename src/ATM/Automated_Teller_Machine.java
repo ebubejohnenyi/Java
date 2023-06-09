@@ -14,7 +14,7 @@ public class Automated_Teller_Machine {
     }
     public static void display(){
         System.out.println("""
-                WELCOME TO SNOW BANK LTD
+                ========== WELCOME TO SNOW BANK LTD ==========
                 PLEASE INSERT YOUR CARD OR PRESS ANY KEY TO PERFORM CARD-LESS TRANSACTION : """);
         String userInput = keyboardInput.next();
         switch (userInput){
@@ -171,7 +171,7 @@ public class Automated_Teller_Machine {
             accountBalance -= userWithdrawalAmount;
         }
     }
-//    public static String inputSection(String enter){
-//        return keyboardInput.next();
-//    }
+    public static String inputSection(String enter){
+        return keyboardInput.next();
+    }
 }

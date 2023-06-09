@@ -16,15 +16,13 @@ public class Bank {
       return newCustomer.size();
    }
    public String generateCustomerAccountNumberWith(String phoneNumber) {
-      if(phoneNumber.length() > 11){
-         return null;
+      if (phoneNumber.length() <= 11){
+         accountNumber = " " + phoneNumber.substring(1);
       }
       else {
-         for (int index = 0; index < phoneNumber.length(); index++) {
-            accountNumber = phoneNumber.replaceFirst(String.valueOf(0), "");
-         }
-         return accountNumber;
+         throw new IllegalArgumentException("ERROR..");
       }
+      return accountNumber;
    }
    public void deposit(String accountNumber, int amount) {
       for (Account newAccountNumber : newCustomer) {
@@ -53,6 +51,19 @@ public class Bank {
          if (newAccount.getAccountNumber().equals(senderAccountNumber)){
             withdraw(senderAccountNumber,pin,2000);
             deposit(receiverAccountNumber,2000);
+         }
+      }
+   }
+   public void deleteAccountNumber(String accountNumber){
+      for (Account accountToDelete: newCustomer) {
+         if(accountToDelete.getAccountNumber().equals(accountNumber)){
+            newCustomer.remove(accountToDelete);
+            System.out.println("ACCOUNT HAS BEEN SUCCESSFULLY DELETED");
+            break;
+         }
+         else{
+            System.out.println("ACCOUNT NOT FOUND.");
+            break;
          }
       }
    }
