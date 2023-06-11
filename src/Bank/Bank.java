@@ -16,18 +16,26 @@ public class Bank {
       return newCustomer.size();
    }
    public String generateCustomerAccountNumberWith(String phoneNumber) {
-      if (phoneNumber.length() <= 11){
-         accountNumber = " " + phoneNumber.substring(1);
+      if(phoneNumber.length() > 12){
+         throw new IllegalArgumentException();
+      }
+      else if(phoneNumber.length() > 1 && phoneNumber.length() <12) {
+         accountNumber = phoneNumber.substring(1);
       }
       else {
-         throw new IllegalArgumentException("ERROR..");
+         throw new IllegalArgumentException();
       }
       return accountNumber;
    }
    public void deposit(String accountNumber, int amount) {
       for (Account newAccountNumber : newCustomer) {
-         if(newAccountNumber.getAccountNumber().equals(accountNumber)){
+         if(newAccountNumber.getAccountNumber().equals(accountNumber)) {
+            if(amount < 1){
+               throw new IllegalArgumentException();
+            }
+            else {
             newAccountNumber.deposit(amount);
+            }
          }
       }
    }
@@ -42,7 +50,12 @@ public class Bank {
    public void withdraw(String accountNumber, String pin, int amount) {
       for (Account newAccountNumber : newCustomer) {
          if (newAccountNumber.getAccountNumber().equals(accountNumber)){
-            newAccountNumber.withdraw(pin, amount);
+            if(newAccountNumber.getBalance() < 0){
+               System.out.println("INSUFFICIENT FUNDS.");
+            }
+            else {
+               newAccountNumber.withdraw(pin, amount);
+            }
          }
       }
    }

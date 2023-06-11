@@ -26,7 +26,7 @@ public class Account {
     }
     public void deposit(int amount) {
         if(amount < 0){
-            System.out.println("Insufficient Fund");
+            throw new IllegalArgumentException();
         }
         else {
             initialBalance += amount;
@@ -56,14 +56,14 @@ public class Account {
     public void withdraw(String pin, int amount) {
         if(Objects.equals(this.pin, pin)){
             if(amount < 0){
-                System.out.println("Insufficient Fund");
+                throw new IllegalArgumentException();
             }
             else{
                 initialBalance -= amount;
             }
         }
         else{
-            System.out.println("Incorrect pin");
+            throw new IllegalArgumentException();
         }
     }
     public int checkBalance(String pin) {
