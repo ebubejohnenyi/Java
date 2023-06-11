@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="debb0365-5e4e-4adc-b779-7eabb8b41d72" name="Changes" comment="Update">
+      <change afterPath="$PROJECT_DIR$/src/PhoneBook/Contacts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PhoneBook/PhoneBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/PhoneBookTest/PhoneBookTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bank/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bank/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bank/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bank/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bank/MainBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bank/MainBank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/BankTest/BankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/BankTest/BankTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bank/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,16 +62,17 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="PhoneBook" />
       <recent name="Diary" />
       <recent name="Stack" />
       <recent name="Things" />
       <recent name="ChapterSeven.turtle" />
-      <recent name="ChapterThree" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="PhoneBook" />
       <recent name="Diary" />
       <recent name="PersonalExercise" />
     </key>
@@ -83,74 +84,81 @@
       <recent name="ArraySnacksTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainBank">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bank.Main" />
+  <component name="RunManager" selected="JUnit.PhoneBookTest">
+    <configuration name="DairyTest.findEntry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Bank.*" />
+          <option name="PATTERN" value="DairyTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="DairyTest" />
+      <option name="MAIN_CLASS_NAME" value="DairyTest.DairyTest" />
+      <option name="METHOD_NAME" value="findEntry" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainBank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bank.MainBank" />
+    <configuration name="PhoneBookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Bank.*" />
+          <option name="PATTERN" value="PhoneBookTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BankTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="BankTest" />
-      <option name="MAIN_CLASS_NAME" value="BankTest.AccountTest" />
+      <option name="PACKAGE_NAME" value="PhoneBookTest" />
+      <option name="MAIN_CLASS_NAME" value="PhoneBookTest.PhoneBookTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PhoneBookTest.test_ICanDelete_FromPhoneBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BankTest.*" />
+          <option name="PATTERN" value="PhoneBookTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="BankTest" />
-      <option name="MAIN_CLASS_NAME" value="BankTest.BankTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="PhoneBookTest" />
+      <option name="MAIN_CLASS_NAME" value="PhoneBookTest.PhoneBookTest" />
+      <option name="METHOD_NAME" value="test_ICanDelete_FromPhoneBook" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankTest.generateCustomerAccountNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PhoneBookTest.test_ICan_deleteAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BankTest.*" />
+          <option name="PATTERN" value="PhoneBookTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="BankTest" />
-      <option name="MAIN_CLASS_NAME" value="BankTest.BankTest" />
-      <option name="METHOD_NAME" value="generateCustomerAccountNumber" />
+      <option name="PACKAGE_NAME" value="PhoneBookTest" />
+      <option name="MAIN_CLASS_NAME" value="PhoneBookTest.PhoneBookTest" />
+      <option name="METHOD_NAME" value="test_ICan_deleteAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhoneBookTest.test_ICan_searchByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PhoneBookTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PhoneBookTest" />
+      <option name="MAIN_CLASS_NAME" value="PhoneBookTest.PhoneBookTest" />
+      <option name="METHOD_NAME" value="test_ICan_searchByName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainBank" />
-        <item itemvalue="JUnit.BankTest" />
-        <item itemvalue="JUnit.BankTest.generateCustomerAccountNumber" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.AccountTest" />
+        <item itemvalue="JUnit.PhoneBookTest" />
+        <item itemvalue="JUnit.PhoneBookTest.test_ICan_deleteAll" />
+        <item itemvalue="JUnit.PhoneBookTest.test_ICan_searchByName" />
+        <item itemvalue="JUnit.PhoneBookTest.test_ICanDelete_FromPhoneBook" />
+        <item itemvalue="JUnit.DairyTest.findEntry" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +207,7 @@
       <workItem from="1686177977275" duration="10316000" />
       <workItem from="1686230600819" duration="12612000" />
       <workItem from="1686298592591" duration="14093000" />
-      <workItem from="1686470318877" duration="4018000" />
+      <workItem from="1686470318877" duration="14261000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1684318220937</created>
@@ -418,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686322306992</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Update">
+      <created>1686474370475</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1686474370475</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
