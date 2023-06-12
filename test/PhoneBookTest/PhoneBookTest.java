@@ -24,7 +24,7 @@ public class PhoneBookTest {
         phoneBook.add("John","09054498013");
         phoneBook.add("Mr.Chibuzor","07031038346");
         phoneBook.add("Snow","07052456491");
-        phoneBook.deleteByName("Snow");
+        phoneBook.deleteContact("Snow");
         assertEquals(2, phoneBook.phoneBookSize());
     }
     @Test public void test_ICan_searchByName(){
@@ -32,7 +32,7 @@ public class PhoneBookTest {
         phoneBook.add("John","09054498013");
         phoneBook.add("Mr.Chibuzor","07031038346");
         phoneBook.add("Snow","07052456491");
-        assertEquals("John", phoneBook.searchBy("John"));
+        assertEquals("09054498013", phoneBook.searchBy("John"));
     }
     @Test public void test_ICan_deleteAll(){
         phoneBook.isEmpty();
@@ -42,5 +42,11 @@ public class PhoneBookTest {
         phoneBook.deleteAll();
         assertEquals(0, phoneBook.phoneBookSize());
     }
-    
+    @Test public void test_ICan_viewAllContact(){
+        phoneBook.isEmpty();
+        phoneBook.add("John","09054498013");
+        phoneBook.add("Paul","09054498013");
+        phoneBook.add("Ebube","09054498013");
+        assertEquals("Ebube - 09054498013", phoneBook.viewAllAddedContact());
+    }
 }

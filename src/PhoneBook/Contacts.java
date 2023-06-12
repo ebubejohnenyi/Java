@@ -4,6 +4,10 @@ public class Contacts {
     private String name;
     private String phoneNumber;
     private int deleteContact;
+    @Override
+    public String toString(){
+     return this.name +" - "+ this.phoneNumber;
+    }
     public Contacts(String name, String phoneNumber){
         this.name = name;
         this.phoneNumber = phoneNumber;
