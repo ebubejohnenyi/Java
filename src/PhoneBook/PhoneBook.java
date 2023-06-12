@@ -45,6 +45,7 @@ public class PhoneBook {
     public String viewAllAddedContact() {
         for (Contacts allContacts: phoneBookList) {
            myContact = String.valueOf(allContacts);
+            System.out.println(myContact);
         }
         return myContact;
     }

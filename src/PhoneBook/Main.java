@@ -83,7 +83,7 @@ public class Main {
 
     private static void viewAllContact() {
         System.out.println("===== CONTACTS =====");
-        System.out.println(phoneBook.viewAllAddedContact());
+        phoneBook.viewAllAddedContact();
     }
     private static void deleteAll() {
         System.out.println("WOULD YOU LIKE TO DELETE ALL CONTACT ?: (YES / NO) ");
