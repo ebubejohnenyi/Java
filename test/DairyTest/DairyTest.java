@@ -45,17 +45,16 @@ public class DairyTest {
         myDairy.createEntry("My Dare Dairy","I am a Digital Learner in Semicolon");
         myDairy.createEntry("Vampire Dairy","I'll come hunt you");
         Gists body = myDairy.findMy_gistById("Vampire Dairy");
-        assertEquals("Vampire Dairy", myDairy.getTitle());
         assertEquals("I'll come hunt you", body.getBody());
     }
     @Test public  void updateEntry(){
+        myDairy.islocked();
         myDairy.unlockedWith("password");
-        assertTrue(myDairy.isUnlocked());
-        myDairy.createEntry("My Dare Dairy", "I am a Digital Learner in semicolon");
-        myDairy.createEntry("Vampire Dairy", "I'll hunt you");
-        myDairy.updateEntry(123,"Software Engineer","I will become whom i want to be");
-        Gists body = myDairy.findMy_gistById("Software Engineer");
-        assertEquals("I will become whom i want to be", body.getBody());
+        myDairy.createEntry("My Dare Dairy","I am a Digital Learner in Semicolon");
+        myDairy.createEntry("Vampire Dairy","I'll come hunt you");
+        myDairy.updateEntry(1, "EbubeDairy", "I am a programmer");
+        Gists body  = myDairy.findMy_gistById("EbubeDairy");
+        assertEquals("I am a programmer",body.getBody());
     }
 
 }

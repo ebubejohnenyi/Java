@@ -71,10 +71,11 @@ public class Diary {
     }
 
     public void updateEntry(int id, String title, String body){
-        for (Gists gist: newGists) {
-            if(gist.getId()==id){
-               gist.setTitle(title);
-               gist.setBody(body);
+        for (Gists gist : newGists) {
+            if(gist.getTitle().equals(title)){
+                gist.setTitle(title);
+                gist.setId(id);
+                gist.setBody(body);
             }
         }
     }

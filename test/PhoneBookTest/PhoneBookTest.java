@@ -7,10 +7,10 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class PhoneBookTest {
     PhoneBook phoneBook = new PhoneBook();
-    @Test public void testThatPhoneBookExist(){
+    @Test public void testThat_PhoneBookExist(){
         assertNotNull(phoneBook);
     }
-    @Test public void testThatPhoneBookIsEmpty(){
+    @Test public void testThat_PhoneBookIsEmpty(){
         phoneBook.isEmpty();
         assertEquals(true, phoneBook.isEmpty());
     }

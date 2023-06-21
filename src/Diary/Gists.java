@@ -22,7 +22,7 @@ public class Gists {
         this.body = body;
     }
     public String getBody(){
-        return this.body;
+        return body;
     }
     public void setId(int id) {
         this.id = id;

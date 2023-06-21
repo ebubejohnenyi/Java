@@ -3,7 +3,6 @@ package PhoneBook;
 public class Contacts {
     private String name;
     private String phoneNumber;
-    private int deleteContact;
     @Override
     public String toString(){
      return this.name +" - "+ this.phoneNumber;
@@ -26,8 +25,5 @@ public class Contacts {
 
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
-    }
-    public int deleteContact(){
-        return deleteContact --;
     }
 }

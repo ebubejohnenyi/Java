@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PhoneBook {
-    private Contacts contacts = new Contacts("Ebube","09054498013");
+    private static Contacts contacts = new Contacts("Ebube","09054498013");
     private boolean isEmpty = true;
     private int phoneBookSize;
     private List <Contacts> phoneBookList = new ArrayList<>();
-    private String myContact;
+    private String myContact; 
     public boolean isEmpty() {
         return isEmpty;
     }
@@ -21,14 +21,13 @@ public class PhoneBook {
         return phoneBookSize;
     }
 
-    public Contacts deleteContact(String name) {
+    public void deleteContact(String name) {
         for (Contacts newContacts : phoneBookList) {
             if(newContacts.getName().equalsIgnoreCase(name)){
                 phoneBookList.remove(newContacts);
                 break;
             }
         }
-        return null;
     }
     public String searchBy(String name) {
         for (Contacts newContacts : phoneBookList) {
