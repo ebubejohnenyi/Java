@@ -5,24 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="debb0365-5e4e-4adc-b779-7eabb8b41d72" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/src/ChapterFive/Bar_ChartPrinting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChapterFive/CompoundInterestProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChapterFive/MaxAndMinCompute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChapterFive/NumberDivisibleByThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChapterFive/SumSeries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PhoneBook/PhoneBooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PlayGround/Sudoko.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Set_And_Queue/SetAndQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ChapterFive/MaxAndMinComputeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Set_And_QueueTest/SetAndQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChapterFive/studentGrades.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EStore/CheckOut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EStore/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EStore/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PlayGround/PhoneBookClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PlayGround/PhoneBooksClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StudentGrade/LagbajaSchool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StudentGrade/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StudentGrade/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Estore/CheckOutTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/PlayGroundTest/PhoneBooksClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/StudentGradeTest/LagbajaSchoolTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChapterFive/Bar_ChartPrinting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChapterFive/Bar_ChartPrinting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Diary/Diaries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diary/Diaries.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Diary/Diary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diary/Diary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Diary/Gists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diary/Gists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PhoneBook/Contacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PhoneBook/Contacts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PhoneBook/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PhoneBook/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PhoneBook/PhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PhoneBook/PhoneBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Diary/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diary/MainApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/DairyTest/DairyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DairyTest/DairyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/PhoneBookTest/PhoneBookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/PhoneBookTest/PhoneBookTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/PlayGround/ClassWorkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/PlayGroundTest/ClassWorkTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/PlayGround/MultiplyTwoNumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/PlayGroundTest/MultiplyTwoNumbersTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +72,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -91,20 +94,20 @@
       <recent name="PersonalExercise" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="PlayGroundTest" />
       <recent name="PlayGround" />
       <recent name="MBTI" />
       <recent name="Problem" />
       <recent name="GeoPoliticalZone" />
-      <recent name="ArraySnacksTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Bar_ChartPrinting">
-    <configuration name="Bar_ChartPrinting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ChapterFive.Bar_ChartPrinting" />
+  <component name="RunManager" selected="JUnit.LagbajaSchoolTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EStore.Main" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ChapterFive.*" />
+          <option name="PATTERN" value="EStore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,65 +115,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompoundInterestProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ChapterFive.CompoundInterestProgram" />
+    <configuration name="LagbajaSchoolTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ChapterFive.*" />
+          <option name="PATTERN" value="StudentGradeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="StudentGradeTest" />
+      <option name="MAIN_CLASS_NAME" value="StudentGradeTest.LagbajaSchoolTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneBooks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PhoneBook.PhoneBooks" />
+    <configuration name="LagbajaSchoolTest.testI_canHaveStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PhoneBook.*" />
+          <option name="PATTERN" value="StudentGradeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="StudentGradeTest" />
+      <option name="MAIN_CLASS_NAME" value="StudentGradeTest.LagbajaSchoolTest" />
+      <option name="METHOD_NAME" value="testI_canHaveStudent" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sudoko" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PlayGround.Sudoko" />
+    <configuration name="LagbajaSchoolTest.testI_forTheHighest_ScoringStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PlayGround.*" />
+          <option name="PATTERN" value="StudentGradeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="StudentGradeTest" />
+      <option name="MAIN_CLASS_NAME" value="StudentGradeTest.LagbajaSchoolTest" />
+      <option name="METHOD_NAME" value="testI_forTheHighest_ScoringStudent" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumSeries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ChapterFive.SumSeries" />
+    <configuration name="LagbajaSchoolTest.testI_forTheLowest_ScoringStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ChapterFive.*" />
+          <option name="PATTERN" value="StudentGradeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="StudentGradeTest" />
+      <option name="MAIN_CLASS_NAME" value="StudentGradeTest.LagbajaSchoolTest" />
+      <option name="METHOD_NAME" value="testI_forTheLowest_ScoringStudent" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Bar_ChartPrinting" />
-        <item itemvalue="Application.CompoundInterestProgram" />
-        <item itemvalue="Application.SumSeries" />
-        <item itemvalue="Application.Sudoko" />
-        <item itemvalue="Application.PhoneBooks" />
+        <item itemvalue="JUnit.LagbajaSchoolTest" />
+        <item itemvalue="JUnit.LagbajaSchoolTest.testI_forTheLowest_ScoringStudent" />
+        <item itemvalue="JUnit.LagbajaSchoolTest.testI_forTheHighest_ScoringStudent" />
+        <item itemvalue="JUnit.LagbajaSchoolTest.testI_canHaveStudent" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +228,14 @@
       <workItem from="1686666744030" duration="5343000" />
       <workItem from="1686755907837" duration="26220000" />
       <workItem from="1687165345182" duration="6933000" />
-      <workItem from="1687340953597" duration="1979000" />
+      <workItem from="1687340953597" duration="8781000" />
+      <workItem from="1687378481038" duration="24794000" />
+      <workItem from="1687739646789" duration="4752000" />
+      <workItem from="1687794959127" duration="648000" />
+      <workItem from="1687854780647" duration="22555000" />
+      <workItem from="1688254738009" duration="15821000" />
+      <workItem from="1688404789897" duration="128000" />
+      <workItem from="1688405450713" duration="34879000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1684318220937</created>
@@ -468,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686585073528</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Update">
+      <created>1687342959947</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1687342959947</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

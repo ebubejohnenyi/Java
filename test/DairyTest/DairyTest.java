@@ -18,43 +18,35 @@ public class DairyTest {
         assertTrue(myDairy.islocked());
     }
 
-    @Test public void diaryCorrectPassword_andIncorrectPasswrd(){
+    @Test public void test_Ican_UnlockedDairy_WithPassword(){
         myDairy.unlockedWith("password");
         assertTrue(myDairy.isUnlocked());
     }
-    @Test public void testFor_setBody(){
-        myDairy.setTitle("My Dare Dairy");
-        assertEquals("My Dare Dairy",myDairy.getTitle());
-    }
-    @Test public void addEntry(){
+    @Test public void test_Ican_CreateNewGist(){
+        myDairy.islocked();
         myDairy.unlockedWith("password");
-        assertTrue(myDairy.isUnlocked());
-        myDairy.createEntry("My Dare Diary","I am a Digital Learner in Semicolon");
-        assertEquals(1, myDairy.getAddedEntry());
+        myDairy.createNewGist("My Dare Diary","I am a Digital Learner in Semicolon");
+        assertEquals(1, myDairy.getAllGists());
     }
-    @Test public void deleteEntry(){
+    @Test public void testICan_deleteGist_ByTitle(){
+        myDairy.islocked();
         myDairy.unlockedWith("password");
-        assertTrue(myDairy.isUnlocked());
-        myDairy.createEntry("My Dare Dairy","I am a Digital Learner in Semicolon");
-        myDairy.deleteEntry();
-        assertEquals(0, myDairy.deleteEntry());
+        myDairy.createNewGist("My Dare Dairy","I am a Digital Learner in Semicolon");
+        myDairy.deleteGist_ByTitle("My Dare Dairy");
+        assertEquals(0, myDairy.getAllGists());
     }
-    @Test public void findEntry(){
+    @Test public void test_Ican_findGist_By_Title(){
+        myDairy.islocked();
         myDairy.unlockedWith("password");
-        assertTrue(myDairy.isUnlocked());
-        myDairy.createEntry("My Dare Dairy","I am a Digital Learner in Semicolon");
-        myDairy.createEntry("Vampire Dairy","I'll come hunt you");
-        Gists body = myDairy.findMy_gistById("Vampire Dairy");
-        assertEquals("I'll come hunt you", body.getBody());
+        myDairy.createNewGist("My Dare Dairy","I am a Digital Learner in Semicolon");
+        myDairy.createNewGist("Vampire Dairy","I'll come hunt you");
+        assertEquals("I'll come hunt you", myDairy.findMy_gist_ByTitle("Vampire Dairy"));
     }
     @Test public  void updateEntry(){
         myDairy.islocked();
         myDairy.unlockedWith("password");
-        myDairy.createEntry("My Dare Dairy","I am a Digital Learner in Semicolon");
-        myDairy.createEntry("Vampire Dairy","I'll come hunt you");
-        myDairy.updateEntry(1, "EbubeDairy", "I am a programmer");
-        Gists body  = myDairy.findMy_gistById("EbubeDairy");
-        assertEquals("I am a programmer",body.getBody());
+        myDairy.createNewGist("Hello World","I am John");
+        myDairy.updateEntry(1,"Semicolon World", "Innovative Mindset");
+        assertEquals("Innovative Mindset", myDairy.findMy_gist_ByTitle("Semicolon World"));
     }
-
 }

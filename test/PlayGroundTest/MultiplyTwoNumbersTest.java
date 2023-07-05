@@ -1,5 +1,6 @@
-package PlayGround;
+package PlayGroundTest;
 
+import PlayGround.MultiplyTwoNumbers;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

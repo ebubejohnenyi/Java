@@ -4,17 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Diary {
-    private boolean isLocked = true;
-    private boolean isUnlocked = true;
-    private String password;
-    private int counter;
-    private String title;
-    private String body;
-    private String id;
-    private List <Gists> newGists = new ArrayList<>();
-
+    private boolean isLocked = true, isUnlocked = true;
+    private String password, username, title, body, id;
+    private List <Gists> newGistsList = new ArrayList<>();
     public Diary(String username, String password) {
         this.password = password;
+        this.username = username;
     }
     public boolean isUnlocked() {
         return isUnlocked;
@@ -22,62 +17,65 @@ public class Diary {
     public boolean islocked() {
         return isLocked;
     }
-    public void setTitle(String title){
-        this.title = title;
-    }
-    public String getTitle(){
-        return title;
-    }
-    public void setBody(String body){
-        this.body = body;
-    }
-    public  String getBody(){
-        return body;
-    }
-    public void setId(String id) {
-        this.id = id;
-    }
-    public String getId() {
-        return id;
-    }
-    public void unlockedWith(String password) {
-        if(password.equals(this.password)){
-            isLocked = true;
+    public boolean unlockedWith(String password) {
+        if(this.password.equals(password)){
+            return isUnlocked;
         }
         else {
             System.out.println("Incorrect Password");
-            isLocked = false;
+            return isLocked;
         }
     }
-    public void createEntry (String title, String body) {
+    public void createNewGist(String title, String body) {
         Gists newGists = new Gists(title,body);
-        this.newGists.add(newGists);
-        counter++;
+        newGists.setId(newGistsList.size() + 1);
+        newGistsList.add(newGists);
     }
-    public int getAddedEntry() {
-        return newGists.size();
+    public int getAllGists() {
+        return newGistsList.size();
     }
-    public int deleteEntry() {
-        return counter--;
-    }
-
-    public Gists findMy_gistById(String Id){
-        for (Gists gist : newGists) {
-           if(gist.getTitle().equalsIgnoreCase(Id)){
-               return gist;
-           }
-        }
-        return null;
-    }
-
-    public void updateEntry(int id, String title, String body){
-        for (Gists gist : newGists) {
-            if(gist.getTitle().equals(title)){
-                gist.setTitle(title);
-                gist.setId(id);
-                gist.setBody(body);
+    public void deleteGist_ByTitle(String title) {
+        boolean diaryIsUnlocked = isUnlocked;
+        if(diaryIsUnlocked){
+            for (Gists newGists: newGistsList) {
+                if (newGists.getTitle().equals(title)){
+                    newGistsList.remove(newGists);
+                    break;
+                }
+                else System.out.println("GIST DOESN'T EXIST.");
             }
         }
+    }
+//    @Override
+//    public String toString(){
+//        return title +" - "+ body;
+//    }
+    public String findMy_gist_ByTitle(String title){
+        boolean diaryIsUnlocked = isUnlocked;
+        if(diaryIsUnlocked){
+          for (Gists newgist: newGistsList) {
+              if(newgist.getTitle().equalsIgnoreCase(title)){
+                  String titleBody = newgist.getBody();
+                  return titleBody;
+              }
+          }
+        }
+            return "GIST DOESN'T EXIST";
+    }
+
+    public void updateEntry(int id, String title, String body) {
+        boolean diaryIsUnlocked = isUnlocked;
+        if(diaryIsUnlocked){
+            for (Gists newGist: newGistsList) {
+                if(newGist.getId() == id){
+                    newGist.setTitle(title);
+                    newGist.setBody(body);
+                }
+            }
+        }
+    }
+    public String getUserName() {
+        return username;
     }
 
 }
